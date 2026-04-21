@@ -1,8 +1,11 @@
 
-
 function Card() {
   return (
-    art
+    <article>
+        <div>
+            <h5></h5>
+        </div>
+    </article>
     
   )
 }
