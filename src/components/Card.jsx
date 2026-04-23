@@ -1,12 +1,14 @@
 
-function Card() {
+function Card({ nombre }) {
   return (
     <article>
-        <div>
-            <h5>Titulo</h5>
-        </div>
+
+      <h5>
+        {nombre}
+      </h5>
+
     </article>
-    
+
   )
 }
 

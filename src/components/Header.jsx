@@ -1,3 +1,5 @@
+import Logo from "./Logo"
+import NavBar1 from "./NavBar1"
 
 
 function Header() {
@@ -5,15 +7,11 @@ function Header() {
         <div>
             <div>
                 <aside>
-                    <h3>ZENITH BONSAI</h3>
+                    <Logo/>
                 </aside>
             </div>
             <div>
-                <nav>
-                    <a href="">Filosofia</a>
-                    <a href="">Galeria</a>
-                    <a href="">Reservas</a>
-                </nav>
+                <NavBar1/>
             </div>
         </div>
     )
