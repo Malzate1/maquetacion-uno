@@ -1,9 +1,10 @@
 import Filosofia from "../pages/Filosofia";
 import Galeria from "../pages/Galeria";
-//import Reservas
+import Reservas from "../pages/Reservas";
 import Index from "../pages/Index";
+import { createBrowserRouter } from "react-router-dom";
 
-export let routerApp=[
+export const routerApp=createBrowserRouter([
     {
         path:"/",
         element:<Index/>,
@@ -14,10 +15,10 @@ export let routerApp=[
     },
     {
         path:"/galeria",
-        element:<Galeria/>
+        element:<Galeria/>,
     },
     {
         path:"/reservas",
         element:<Reservas/>,
     }
-]
+])
