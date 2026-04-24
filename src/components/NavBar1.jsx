@@ -1,13 +1,13 @@
-
+import { Link } from 'react-router-dom'
 
 function NavBar1() {
-    return (
-        <nav>
-            <a href="">Filosofia</a>
-            <a href="">Galeria</a>
-            <a href="">Reservas</a>
-        </nav>
-    )
+  return (
+    <nav>
+      <Link to="/filosofia">Filosofia</Link>
+      <Link to="/galeria">Galeria</Link>
+      <Link to="/reservas">Reservas</Link>
+    </nav>
+  )
 }
 
 export default NavBar1

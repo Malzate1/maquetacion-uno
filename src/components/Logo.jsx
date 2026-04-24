@@ -1,8 +1,12 @@
+import { Link } from 'react-router-dom'
+import logoPng from '../assets/Logo.png'
 
 
 function Logo() {
   return (
-    <div>Logo</div>
+    <Link to="/">
+      <img src={logoPng} alt="Logo" />
+    </Link>
   )
 }
 

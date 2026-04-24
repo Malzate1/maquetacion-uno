@@ -51,7 +51,7 @@ const Reservas = () => {
 
 
                     <div >
-                        <label style={labelStyle}>Nivel de experiencia</label>
+                        <label>Nivel de experiencia</label>
                         <div >
                             <select value={nivel}
                                 onChange={(e) => setNivel(e.target.value)}>

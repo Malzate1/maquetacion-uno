@@ -4,16 +4,14 @@ import NavBar1 from "./NavBar1"
 
 function Header() {
     return (
+
         <div>
-            <div>
-                <aside>
-                    <Logo/>
-                </aside>
-            </div>
-            <div>
-                <NavBar1/>
-            </div>
+            <aside>
+                <Logo />
+            </aside>
+            <NavBar1 />
         </div>
+
     )
 }
 

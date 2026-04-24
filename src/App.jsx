@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Routes,Route} from "react-router-dom";
 import Filosofia from "./pages/Filosofia";
 import Index from "./pages/Index";
 import Galeria from "./pages/Galeria";
