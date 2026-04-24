@@ -1,13 +1,10 @@
 import { Link } from 'react-router-dom'
-import logoPng from '../assets/Logo.png'
-
 
 function Logo() {
   return (
-    <Link to="/">
-      <img src={logoPng} alt="Logo" />
+    <Link to="/" className="text-sm font-bold tracking-widest text-gray-900 uppercase">
+      Zenith Bonsai
     </Link>
   )
 }
-
 export default Logo
